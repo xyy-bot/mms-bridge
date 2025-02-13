@@ -1,0 +1,31 @@
+description = {
+  "empty_cola_can": "smooth, no bumps, no texture, it is empty."
+  "full_cola_can": "smooth, no bumps, no texture, it is full."
+
+  "fake_banana": "smooth, a rising edge, no texture, it is fake."
+  "real_banana": "slightly rough, sparse dimples, no texture, it is real."
+
+  "fake_cucumber": "smooth, slightly bumpy, no texture, it is fake."
+  "real_cucumber": "rough, uneven, a few grooves, it is real."
+
+  "fake_eggplant": "sparse dots, uneven, not texture, it is fake."
+  "real_eggplant": "smooth, uniform, no texture, it is real."
+
+  "fake_garlic": "rough, dense groove, directional ridges, it is fake."
+  "real_garlic": "mostly smooth, no bumps, few small ridges, it is real."
+
+  "fake_green_bell_pepper": "mostly smooth, a few small dimples, no texture, it is fake."
+  "real_green_bell_pepper": "smooth, no bumps, no texture, it is real."
+
+  "fake_lemon": "rough, highly bumpy, many grainy dots, it is fake."
+  "real_lemon": "rough, evenly distributed bumps, grid-like texture, it is real."
+
+  "fake_potato": "smooth, no bumps, no texture, it is fake."
+  "real_potato": "rough, small indentations, wrinkled texture, it is real."
+
+  "fake_red_bell_pepper": "mostly smooth, no bumps, no texture, it is fake."
+  "real_red_bell_pepper": "smooth, a few small dots, no texture, it is real."
+
+  "fake_tomato": "mostly smooth, uneven, a few sparse dots, it is fake."
+  "real_tomato": "smooth, uniform, no texture, it is real."
+  }

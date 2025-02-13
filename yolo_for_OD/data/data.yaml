@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['banana', 'cola can', 'cucumber', 'eggplant', 'garlic', 'green paprika', 'lemon', 'potato', 'red paprika', 'tomato']
+
+roboflow:
+  workspace: vlam
+  project: vlm_for_tactile_sensing
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vlam/vlm_for_tactile_sensing/dataset/3

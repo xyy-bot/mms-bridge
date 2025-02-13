@@ -1,0 +1,6 @@
+path: /home/au-robotics/PycharmProjects/object_detection_xy/yolo_for_OD/dataset
+train: train/images
+val: valid/images
+
+nc: 10
+names: ['banana', 'cola can', 'cucumber', 'eggplant', 'garlic', 'green paprika', 'lemon', 'potato', 'red paprika', 'tomato']
