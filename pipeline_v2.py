@@ -188,15 +188,15 @@ def get_robot_pose_matrix():
     return pose_mat
 
 
-def get_coord_of_object(bbox, config_path="./yolo_for_OD/configs/config_640_480_v4.yaml"):
+def get_coord_of_object(bbox, base2ee_matrix, config_path="./yolo_for_OD/configs/config_640_480_v4.yaml"):
     """
     Calculate the robot-frame coordinates of an object given its bounding box.
     """
     x_min, y_min, width, height = bbox
     x_center = x_min + width / 2
     y_center = y_min + height / 2
-    baseTee_matrix = get_robot_pose_matrix()
-    object_coords = transform_to_robot_frame((x_center, y_center), 0.38256, baseTee_matrix, config_path)
+
+    object_coords = transform_to_robot_frame((x_center, y_center), 0.38256, base2ee_matrix, config_path)
     return object_coords
 
 
@@ -289,12 +289,13 @@ if __name__ == "__main__":
     rgb_image.save(rgb_filename)
     img_with_bbox.save(img_with_bbox_filename)
     print("Detected Objects:", detections)
+    baseTee_matrix = get_robot_pose_matrix()
 
     # Process each detected object
     for i, detection in enumerate(detections):
         bbox = detection['bbox']
         label = detection['label']
-        object_coords = get_coord_of_object(bbox)
+        object_coords = get_coord_of_object(bbox,baseTee_matrix)
         logging_name = f"{label}_{i}"
 
         # Move robot to object location
@@ -363,9 +364,10 @@ if __name__ == "__main__":
         return_pos = grasping_pose.copy()
         return_pos[2] = initial_TCP_pose[2]
         rtde_c.moveL(return_pos, 0.05, 0.05, False)
-        rtde_c.moveL(initial_TCP_pose, 0.05, 0.05, False)
 
+    rtde_c.moveL(initial_TCP_pose, 0.05, 0.05, False)
     print("\nPipeline Completed.")
+
     rtde_c.stopScript()
     rtde_c.disconnect()
     rtde_r.disconnect()
