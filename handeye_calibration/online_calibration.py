@@ -65,7 +65,7 @@ def save_calibration_yaml(yaml_path,
 def main():
     # ========== Basic settings ==========
     N = 10  # Number of captures
-    output_folder = "captures_640_480_v3"
+    output_folder = "captures_640_480_v4"
     os.makedirs(output_folder, exist_ok=True)
 
     pose_csv_path = os.path.join(output_folder, "poses.csv")

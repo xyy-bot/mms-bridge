@@ -10,7 +10,7 @@ import time
 import numpy as np
 import cv2
 import torch
-from PIL import Image
+from PIL import Image, ImageOps
 
 # Import Realsense and Serial libraries
 import pyrealsense2 as rs
@@ -66,9 +66,14 @@ TORCH_DTYPE = torch.bfloat16
 rtde_c = RTDEControlInterface("192.168.1.254")
 rtde_r = RTDEReceiveInterface("192.168.1.254")
 gripper = RobotiqGripper(rtde_c)
+gripper.activate()
+gripper.set_force(0)
+gripper.set_speed(0)
+print("Gripper activated.")
+time.sleep(2)
 
 # Camera and Arduino configuration
-gelsight_source = 0  # Adjust to your correct camera index
+gelsight_source = 6  # Adjust to your correct camera index
 gelsight_sampling_interval = 0.05  # 20 Hz sampling rate
 arduino_port = "/dev/ttyACM0"
 arduino_baud_rate = 115200
@@ -100,6 +105,7 @@ def capture_realsense_image():
     image_np = np.asanyarray(color_frame.get_data())
     # Convert from BGR to RGB using slicing (::-1)
     image = Image.fromarray(image_np[:, :, ::-1])
+    # image = ImageOps.mirror(ImageOps.flip(image))
     pipeline.stop()
     return image
 
@@ -182,7 +188,7 @@ def get_robot_pose_matrix():
     return pose_mat
 
 
-def get_coord_of_object(bbox, config_path="./yolo_for_OD/configs/config_640_480_v3.yaml"):
+def get_coord_of_object(bbox, config_path="./yolo_for_OD/configs/config_640_480_v4.yaml"):
     """
     Calculate the robot-frame coordinates of an object given its bounding box.
     """
@@ -190,7 +196,7 @@ def get_coord_of_object(bbox, config_path="./yolo_for_OD/configs/config_640_480_
     x_center = x_min + width / 2
     y_center = y_min + height / 2
     baseTee_matrix = get_robot_pose_matrix()
-    object_coords = transform_to_robot_frame((x_center, y_center), 0.1, baseTee_matrix, config_path)
+    object_coords = transform_to_robot_frame((x_center, y_center), 0.38256, baseTee_matrix, config_path)
     return object_coords
 
 
@@ -232,7 +238,21 @@ def clip_force_data_list(force_list, force_threshold=2.0, pre_offset=2, clip_len
 # =============================================================================
 
 if __name__ == "__main__":
-    experiment_name = "pipeline_test1"
+
+    # Create necessary directories
+    for folder in ['test_result/force_data', 'test_result/tactile_data', 'test_result/rgb_data']:
+        os.makedirs(folder, exist_ok=True)
+
+    # Load Models
+    pali_checkpoint_path = "paligemma2/paligemma_for_OD_VQA/check_point/paligemma2_od_vqa_finetune_v1/checkpoint-3420"
+    pali_ODVQA_model, pali_ODVQA_processor = load_paligemma2_for_OD_VQA(pali_checkpoint_path)
+    print("Paligemma2 loaded.")
+
+    vqvae_checkpoint_path = "vqvae_for_force/checkpoints/fourclass_full_train_further/best_checkpoint.pth"
+    vqvae_model = load_model_from_checkpoint(vqvae_checkpoint_path, device=DEVICE)
+    print("VQVAE loaded.")
+
+
 
     # Mapping from VQVAE predicted labels to deformation modes
     deformation_mode_mapping = {
@@ -247,28 +267,17 @@ if __name__ == "__main__":
                    -1.0817401868155976, -1.5660360495196741, 1.5324363708496094]
     rtde_c.moveJ(initial_pos, 0.05, 0.05, False)
     print("Robot moved to initial position.")
-
-    # Activate gripper and set parameters
-    gripper.activate()
-    gripper.set_force(0)
-    gripper.set_speed(0)
-    print("Gripper activated.")
+    initial_TCP_pose = rtde_r.getActualTCPPose()
+    print("Wait for robot stabilized")
     time.sleep(2)
 
-    # Create necessary directories
-    for folder in ['test_result/force_data', 'test_result/tactile_data', 'test_result/rgb_data']:
-        os.makedirs(folder, exist_ok=True)
+    # Activate gripper and set parameters
 
-    # Load Models
-    pali_checkpoint_path = "paligemma2/paligemma_for_OD_VQA/check_point/paligemma2_od_vqa_finetune_v1/checkpoint-3420"
-    pali_ODVQA_model, pali_ODVQA_processor = load_paligemma2_for_OD_VQA(pali_checkpoint_path)
-    print("Paligemma2 loaded.")
 
-    vqvae_checkpoint_path = "vqvae_for_force/checkpoints/fourclass_full_train_further/best_checkpoint.pth"
-    vqvae_model = load_model_from_checkpoint(vqvae_checkpoint_path, device=DEVICE)
-    print("VQVAE loaded.")
-    time.sleep(5)
-    print("Wait for robot stabilized")
+    experiment_name = "pipeline_test8"
+    force_log_dir = os.path.join("test_result", "force_data", experiment_name)
+    tactile_log_dir = os.path.join("test_result", "tactile_data", experiment_name)
+
     # Capture an RGB image
     rgb_image = capture_realsense_image()
     print("RGB image captured.")
@@ -276,21 +285,23 @@ if __name__ == "__main__":
     # Detect objects in the image
     detections, img_with_bbox = detect_objects(rgb_image, pali_ODVQA_model, pali_ODVQA_processor)
     rgb_filename = os.path.join("test_result/rgb_data", f"{experiment_name}_rgb.jpg")
+    img_with_bbox_filename = os.path.join("test_result/rgb_data", f"{experiment_name}_img_bbox.jpg")
     rgb_image.save(rgb_filename)
+    img_with_bbox.save(img_with_bbox_filename)
     print("Detected Objects:", detections)
 
     # Process each detected object
-    for detection in detections:
+    for i, detection in enumerate(detections):
         bbox = detection['bbox']
         label = detection['label']
         object_coords = get_coord_of_object(bbox)
+        logging_name = f"{label}_{i}"
 
         # Move robot to object location
-        initial_TCP_pose = rtde_r.getActualTCPPose()
         target_pose = initial_TCP_pose.copy()
         target_pose[0:2] = np.array(object_coords[0:2]).tolist()
         rtde_c.moveL(target_pose, 0.05, 0.05, False)
-        print("Robot moved above the object.")
+        print("Robot moved above the", label)
         time.sleep(1)
 
         # Move robot to grasping pose
@@ -303,16 +314,16 @@ if __name__ == "__main__":
         arduino_reader = ArduinoReader(
             serial_port=arduino_port,
             baud_rate=arduino_baud_rate,
-            log_dir='test_result/force_data',
-            experiment_name=experiment_name,
+            log_dir=force_log_dir,
+            experiment_name=logging_name,
             sampling_interval=arduino_sampling_interval
         )
         arduino_reader.experiment_start_time = experiment_start_time
 
         gelsight_reader = GelSightReader(
             video_source=gelsight_source,
-            log_dir='test_result/tactile_data',
-            experiment_name=experiment_name,
+            log_dir=tactile_log_dir,
+            experiment_name=logging_name,
             sampling_interval=gelsight_sampling_interval
         )
         gelsight_reader.experiment_start_time = experiment_start_time
@@ -346,12 +357,13 @@ if __name__ == "__main__":
         answer_for_tactile = tactile_reasoning(
             tactile_image, label, deformation_mode, pali_ODVQA_model, pali_ODVQA_processor
         )
+        print(f"Tactile reasoning answer: {answer_for_tactile}")
 
         # Move robot back to safe position
         return_pos = grasping_pose.copy()
         return_pos[2] = initial_TCP_pose[2]
         rtde_c.moveL(return_pos, 0.05, 0.05, False)
-        print(f"Tactile reasoning answer: {answer_for_tactile}")
+        rtde_c.moveL(initial_TCP_pose, 0.05, 0.05, False)
 
     print("\nPipeline Completed.")
     rtde_c.stopScript()
