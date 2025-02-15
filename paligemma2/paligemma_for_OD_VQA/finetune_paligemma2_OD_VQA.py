@@ -47,13 +47,21 @@ class JSONLDataset(Dataset):
         return image, entry
 
 # Create train and validation datasets.
-train_vqa_dataset = JSONLDataset(
-    jsonl_file_path="./dataset/train_VQA_annotation.jsonl",
+train_vqa_v1_dataset = JSONLDataset(
+    jsonl_file_path="./dataset/train_VQA_v1_annotation.jsonl",
     image_directory_path="./dataset/vqa/train",
 )
-valid_vqa_dataset = JSONLDataset(
-    jsonl_file_path="./dataset/valid_VQA_annotation.jsonl",
+valid_vqa_v1_dataset = JSONLDataset(
+    jsonl_file_path="./dataset/valid_VQA_v1_annotation.jsonl",
     image_directory_path="./dataset/vqa/validation",
+)
+train_vqa_v2_dataset = JSONLDataset(
+    jsonl_file_path="./dataset/train_VQA_v2_annotation.jsonl",
+    image_directory_path="./dataset/vqa_v2/train",
+)
+valid_vqa_v2_dataset = JSONLDataset(
+    jsonl_file_path="./dataset/valid_VQA_v2_annotation.jsonl",
+    image_directory_path="./dataset/vqa_v2/validation",
 )
 
 train_od_dataset = JSONLDataset(
@@ -65,8 +73,8 @@ valid_od_dataset = JSONLDataset(
     image_directory_path="./dataset/detection",
 )
 
-train_dataset = torch.utils.data.ConcatDataset([train_vqa_dataset, train_od_dataset])
-valid_dataset = torch.utils.data.ConcatDataset([valid_vqa_dataset,valid_od_dataset])
+train_dataset = torch.utils.data.ConcatDataset([train_vqa_v1_dataset, train_vqa_v2_dataset, train_od_dataset])
+valid_dataset = torch.utils.data.ConcatDataset([valid_vqa_v1_dataset,valid_vqa_v2_dataset, valid_od_dataset])
 
 ##########################################
 # STEP 3: Setup the Model, Processor, and Trainer for VQA finetuning.
@@ -159,7 +167,7 @@ args = TrainingArguments(
     save_strategy="steps",
     save_steps=1000,
     save_total_limit=1,
-    output_dir="./check_point/paligemma2_od_vqa_finetune_v1",
+    output_dir="./check_point/paligemma2_od_vqa_augmented_v2",
     bf16=True,
     report_to=["tensorboard"],
     dataloader_pin_memory=False

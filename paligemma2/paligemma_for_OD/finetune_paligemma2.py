@@ -38,12 +38,12 @@ class JSONLDataset(Dataset):
         return image, entry
 
 train_dataset = JSONLDataset(
-    jsonl_file_path="./dataset/_annotations.train.jsonl",
-    image_directory_path="./dataset",
+    jsonl_file_path="./dataset_augmented/_annotations.train.jsonl",
+    image_directory_path="./dataset_augmented",
 )
 valid_dataset = JSONLDataset(
-    jsonl_file_path="./dataset/_annotations.valid.jsonl",
-    image_directory_path="./dataset",
+    jsonl_file_path="./dataset_augmented/_annotations.valid.jsonl",
+    image_directory_path="./dataset_augmented",
 )
 
 
@@ -133,10 +133,10 @@ def collate_fn(batch):
     return inputs
 
 args = TrainingArguments(
-    num_train_epochs=64,
+    num_train_epochs=40,
     remove_unused_columns=False,
     per_device_train_batch_size=1,
-    gradient_accumulation_steps=1,
+    gradient_accumulation_steps=4,
     warmup_steps=2,
     learning_rate=2e-5,
     weight_decay=1e-6,
@@ -146,7 +146,7 @@ args = TrainingArguments(
     save_strategy="steps",
     save_steps=1000,
     save_total_limit=1,
-    output_dir="./check_point/paligemma2_object_detection_v4_frozen",
+    output_dir="./check_point/paligemma2_OD_augmented_dataset_40epoch",
     bf16=True,
     report_to=["tensorboard"],
     dataloader_pin_memory=False

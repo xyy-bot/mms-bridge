@@ -50,16 +50,26 @@ class JSONLDataset(Dataset):
 # Setup: Instantiate Validation Dataset
 ##########################################
 # Create train and validation datasets.
+# Create train and validation datasets.
 
-valid_vqa_dataset = JSONLDataset(
-    jsonl_file_path="./dataset/valid_VQA_annotation.jsonl",
+valid_vqa_v1_dataset = JSONLDataset(
+    jsonl_file_path="./dataset/valid_VQA_v1_annotation.jsonl",
     image_directory_path="./dataset/vqa/validation",
+)
+
+valid_vqa_v2_dataset = JSONLDataset(
+    jsonl_file_path="./dataset/valid_VQA_v2_annotation.jsonl",
+    image_directory_path="./dataset/vqa_v2/validation",
 )
 
 valid_od_dataset = JSONLDataset(
     jsonl_file_path="./dataset/valid_OD_annotation.jsonl",
     image_directory_path="./dataset/detection",
 )
+
+valid_vqa_dataset = torch.utils.data.ConcatDataset([valid_vqa_v1_dataset,valid_vqa_v2_dataset])
+
+
 
 ##########################################
 # Setup Model, Processor, and Device.
@@ -69,7 +79,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 TORCH_DTYPE = torch.bfloat16
 
 # Update this checkpoint path to your fine-tuned VQA checkpoint.
-checkpoint_path = "check_point/paligemma2_od_vqa_finetune_v1/checkpoint-3420"
+checkpoint_path = "check_point/paligemma2_od_vqa_augmented_v2/checkpoint-6170"
 
 # Load the PEFT config and the fine-tuned model.
 config = PeftConfig.from_pretrained(checkpoint_path)
@@ -121,7 +131,7 @@ for idx in tqdm(range(len(valid_vqa_dataset)), desc="Evaluating validation sampl
     })
 
 # Optionally, you can write the results to a JSON file.
-with open("inference_results_6epoch_manually_split.json", "w") as f:
+with open("inference_results_10epoch_manually_split.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print("Inference on the vqa validation set completed.")

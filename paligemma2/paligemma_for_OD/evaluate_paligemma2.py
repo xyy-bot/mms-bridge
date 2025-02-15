@@ -40,12 +40,12 @@ class JSONLDataset(Dataset):
         return image, entry
 
 train_dataset = JSONLDataset(
-    jsonl_file_path="./dataset/_annotations.train.jsonl",
-    image_directory_path="./dataset",
+    jsonl_file_path="./dataset_augmented/_annotations.train.jsonl",
+    image_directory_path="./dataset_augmented",
 )
 valid_dataset = JSONLDataset(
-    jsonl_file_path="./dataset/_annotations.valid.jsonl",
-    image_directory_path="./dataset",
+    jsonl_file_path="./dataset_augmented/_annotations.valid.jsonl",
+    image_directory_path="./dataset_augmented",
 )
 
 CLASSES = train_dataset[0][1]['prefix'].replace("detect ", "").split(" ; ")
@@ -55,7 +55,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 TORCH_DTYPE = torch.bfloat16
 
-checkpoint_path = "check_point/paligemma2_object_detection_v4_frozen/checkpoint-12160"
+checkpoint_path = "check_point/paligemma2_OD_augmented_dataset_40epoch/checkpoint-3160"
 
 config = PeftConfig.from_pretrained(checkpoint_path)
 base_model = AutoModelForPreTraining.from_pretrained(MODEL_ID)
