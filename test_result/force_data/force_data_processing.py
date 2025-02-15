@@ -75,7 +75,7 @@ def process_and_plot(input_folder, output_folder):
 
 
 # 设置输入和输出文件夹
-input_folder = "./"  # 这里替换成你的 CSV 文件所在目录
+input_folder = "./pipeline_test_tomato"  # 这里替换成你的 CSV 文件所在目录
 output_folder = "./processed"
 
 process_and_plot(input_folder, output_folder)

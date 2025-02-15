@@ -1,0 +1,55 @@
+{
+    "experiment_name": "pipeline_test_banana",
+    "detections": [
+        {
+            "object_label": "banana",
+            "bbox": [
+                371.875,
+                240.46875,
+                233.75,
+                238.59375
+            ],
+            "object_coordinates": [
+                0.10112860477798204,
+                -0.24718996595792012,
+                0.00027376217925745294
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+            "decoded_answer": "slightly rough, sparse dimples, no texture, it is real."
+        },
+        {
+            "object_label": "banana",
+            "bbox": [
+                215.0,
+                190.3125,
+                158.75,
+                288.75
+            ],
+            "object_coordinates": [
+                0.0837663159910556,
+                -0.3687241577469953,
+                0.00021993117057722555
+            ],
+            "deformation_mode": "slightly deformation",
+            "probability": [
+                [
+                    9.178886830341071e-05,
+                    0.004464193247258663,
+                    0.9951205849647522,
+                    0.0003233464958611876
+                ]
+            ],
+            "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent slightly deformation when grasping.",
+            "decoded_answer": "slightly rough, sparse dimples, no texture, it is real."
+        }
+    ]
+}
