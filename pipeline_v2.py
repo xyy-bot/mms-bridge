@@ -11,6 +11,7 @@ import numpy as np
 import cv2
 import torch
 from PIL import Image, ImageOps
+import json
 
 # Import Realsense and Serial libraries
 import pyrealsense2 as rs
@@ -73,7 +74,7 @@ print("Gripper activated.")
 time.sleep(2)
 
 # Camera and Arduino configuration
-gelsight_source = 6  # Adjust to your correct camera index
+gelsight_source = 0  # Adjust to your correct camera index
 gelsight_sampling_interval = 0.05  # 20 Hz sampling rate
 arduino_port = "/dev/ttyACM0"
 arduino_baud_rate = 115200
@@ -119,8 +120,10 @@ def detect_objects(image, model, processor):
         annotated_image (PIL.Image): Image annotated with detections.
     """
     print("Running object detection...")
-    prefix = "<image>detect banana ; cola can ; cucumber ; eggplant ; garlic ; " \
-             "green paprika ; lemon ; potato ; red paprika ; tomato"
+    # prefix = "<image>detect banana ; cola can ; cucumber ; eggplant ; garlic ; " \
+    #          "green paprika ; lemon ; potato ; red paprika ; tomato"
+    prefix = "<image>detect banana ; beer can ; cola can ; cucumber ; eggplant ; garlic ; " \
+              "green bell pepper ; lemon ; potato ; red bell pepper ; soft roller ; tomato ; water bottle"
     CLASSES = prefix.replace("<image>detect ", "").split(" ; ")
     inputs = processor(text=prefix, images=image, return_tensors="pt").to(TORCH_DTYPE).to(DEVICE)
     prefix_length = inputs["input_ids"].shape[-1]
@@ -161,8 +164,13 @@ def tactile_reasoning(image, label, deformation_mode, model, processor):
     Returns the decoded answer.
     """
     print("Running tactile reasoning...")
-    prefix_text = (f"Describe the tactile image for {label} and tell me if it's real or fake "
-                   f"as it underwent {deformation_mode} when grasping.")
+    if label in ["cola can", "water bottle"]:
+        prefix_text = (f"Describe the tactile image for {label} and tell me if it's full or empty "
+                       f"as it underwent {deformation_mode} when grasping.")
+    else:
+        prefix_text = (f"Describe the tactile image for {label} and tell me if it's real or fake "
+                       f"as it underwent {deformation_mode} when grasping.")
+
     prefix = "<image>" + prefix_text
     inputs = processor(text=prefix, images=image, return_tensors="pt").to(TORCH_DTYPE).to(DEVICE)
     prefix_length = inputs["input_ids"].shape[-1]
@@ -171,7 +179,7 @@ def tactile_reasoning(image, label, deformation_mode, model, processor):
         generation = model.generate(**inputs, max_new_tokens=256, do_sample=False)
     generation = generation[0][prefix_length:]
     decoded_answer = processor.decode(generation, skip_special_tokens=True)
-    return decoded_answer
+    return decoded_answer, prefix_text
 
 
 def get_robot_pose_matrix():
@@ -196,7 +204,7 @@ def get_coord_of_object(bbox, base2ee_matrix, config_path="./yolo_for_OD/configs
     x_center = x_min + width / 2
     y_center = y_min + height / 2
 
-    object_coords = transform_to_robot_frame((x_center, y_center), 0.38256, base2ee_matrix, config_path)
+    object_coords = transform_to_robot_frame((x_center, y_center), 0.37256, base2ee_matrix, config_path)
     return object_coords
 
 
@@ -244,7 +252,7 @@ if __name__ == "__main__":
         os.makedirs(folder, exist_ok=True)
 
     # Load Models
-    pali_checkpoint_path = "paligemma2/paligemma_for_OD_VQA/check_point/paligemma2_od_vqa_finetune_v1/checkpoint-3420"
+    pali_checkpoint_path = "paligemma2/paligemma_for_OD_VQA/check_point/paligemma2_od_vqa_augmented_v2/checkpoint-6170"
     pali_ODVQA_model, pali_ODVQA_processor = load_paligemma2_for_OD_VQA(pali_checkpoint_path)
     print("Paligemma2 loaded.")
 
@@ -263,9 +271,9 @@ if __name__ == "__main__":
     }
 
     # Move robot to initial position
-    initial_pos = [1.53400719165802, -1.4003892701915284, 0.9106853644000452,
-                   -1.0817401868155976, -1.5660360495196741, 1.5324363708496094]
-    rtde_c.moveJ(initial_pos, 0.05, 0.05, False)
+    initial_pos = [1.529801845550537, -1.53338926405225, 1.0612033049212855,
+                   -1.0991863173297425, -1.5657060782061976, 1.5285420417785645]
+    rtde_c.moveJ(initial_pos, 0.1, 0.1, False)
     print("Robot moved to initial position.")
     initial_TCP_pose = rtde_r.getActualTCPPose()
     print("Wait for robot stabilized")
@@ -274,7 +282,7 @@ if __name__ == "__main__":
     # Activate gripper and set parameters
 
 
-    experiment_name = "pipeline_test8"
+    experiment_name = "pipeline_test_tomato"
     force_log_dir = os.path.join("test_result", "force_data", experiment_name)
     tactile_log_dir = os.path.join("test_result", "tactile_data", experiment_name)
 
@@ -289,6 +297,13 @@ if __name__ == "__main__":
     rgb_image.save(rgb_filename)
     img_with_bbox.save(img_with_bbox_filename)
     print("Detected Objects:", detections)
+
+    # Store experiment results
+    experiment_results = {
+        "experiment_name": experiment_name,
+        "detections": [],
+    }
+
     baseTee_matrix = get_robot_pose_matrix()
 
     # Process each detected object
@@ -339,7 +354,6 @@ if __name__ == "__main__":
         time.sleep(5)
         arduino_reader.stop()
         gelsight_reader.stop()
-        gripper.open()
 
         print("Tactile information obtained")
 
@@ -355,10 +369,46 @@ if __name__ == "__main__":
         deformation_mode = deformation_mode_mapping.get(deformation_mode_id, "Unknown")
         print(f"Object '{label}': deformation mode - {deformation_mode}")
 
-        answer_for_tactile = tactile_reasoning(
+        answer_for_tactile, question = tactile_reasoning(
             tactile_image, label, deformation_mode, pali_ODVQA_model, pali_ODVQA_processor
         )
         print(f"Tactile reasoning answer: {answer_for_tactile}")
+
+        decoded_lower = answer_for_tactile.lower()
+
+        # If either "real" or "full" is detected, execute one action.
+        if "real" in decoded_lower or "full" in decoded_lower:
+            print("Action: Execute protocol for real and full objects.")
+            waypoint1 = target_pose.copy()
+            waypoint1[2] = 0.30000
+            waypoint2 = [0.26000472285307769, -0.28002048743259434, 0.30, -2.221397807813061, -2.2213989474386806, -3.502628052518148e-05]
+            waypoint3 = [0.26000472285307769, -0.28002048743259434, 0.23, -2.221397807813061, -2.2213989474386806, -3.502628052518148e-05]
+            rtde_c.moveL(waypoint1, 0.05, 0.05, False)
+            rtde_c.moveL(initial_TCP_pose, 0.05, 0.05, False)
+            rtde_c.moveL(waypoint2, 0.05, 0.05, False)
+            rtde_c.moveL(waypoint3, 0.05, 0.05, False)
+            gripper.open()
+            rtde_c.moveL(waypoint2, 0.05, 0.05, False)
+
+        # If either "fake" or "empty" is detected, execute the other action.
+        elif "fake" in decoded_lower or "empty" in decoded_lower:
+            print("Action: Execute protocol for fake and empty objects.")
+            gripper.open()
+        else:
+            print("Action: No matching protocol found.")
+            pass
+
+
+        # Store detection results in JSON
+        experiment_results["detections"].append({
+            "object_label": label,
+            "bbox": bbox,
+            "object_coordinates": object_coords.tolist(),
+            "deformation_mode": deformation_mode,
+            "probability": class_probs.tolist(),
+            "question": question,
+            "decoded_answer": answer_for_tactile
+        })
 
         # Move robot back to safe position
         return_pos = grasping_pose.copy()
@@ -367,8 +417,11 @@ if __name__ == "__main__":
 
     rtde_c.moveL(initial_TCP_pose, 0.05, 0.05, False)
     print("\nPipeline Completed.")
+    json_filename = os.path.join("test_result", f"{experiment_name}.json")
+    with open(json_filename, "w") as json_file:
+        json.dump(experiment_results, json_file, indent=4)
 
-    rtde_c.stopScript()
-    rtde_c.disconnect()
-    rtde_r.disconnect()
+    # rtde_c.stopScript()
+    # rtde_c.disconnect()
+    # rtde_r.disconnect()
 
