@@ -206,12 +206,12 @@ class GelSightReader(threading.Thread):
 
 # Main function
 if __name__ == "__main__":
-    base_filename = "aluminum cube_0"
+    base_filename = "fake_green_bell_pepper_3"
 
     # Create directories if they do not exist
     try:
-        os.makedirs('Force_data', exist_ok=True)
-        os.makedirs('Video_data', exist_ok=True)
+        os.makedirs('Force_data_v2', exist_ok=True)
+        os.makedirs('Video_data_v2', exist_ok=True)
     except Exception as e:
         print(f"Error creating directories: {e}")
         sys.exit(1)
@@ -226,18 +226,18 @@ if __name__ == "__main__":
     arduino_reader = ArduinoReader(
         serial_port=arduino_port,
         baud_rate=arduino_baud_rate,
-        log_dir='Force_data',
+        log_dir='Force_data_v2',
         experiment_name=base_filename,
         sampling_interval=arduino_sampling_interval
     )
     arduino_reader.experiment_start_time = experiment_start_time
 
     # Setup GelSight Reader (20 Hz)
-    gelsight_source = 8  # change to your correct camera index
+    gelsight_source = 6  # change to your correct camera index
     gelsight_sampling_interval = 0.05  # intended 20 Hz
     gelsight_reader = GelSightReader(
         video_source=gelsight_source,
-        log_dir='Video_data',
+        log_dir='Video_data_v2',
         experiment_name=base_filename,
         sampling_interval=gelsight_sampling_interval
     )

@@ -4,7 +4,7 @@ import cv2
 import os
 
 # Create output directory if it doesn't exist
-output_dir = "dataset/images"
+output_dir = "dataset/images_v2"
 os.makedirs(output_dir, exist_ok=True)
 
 # Initialize RealSense pipeline
