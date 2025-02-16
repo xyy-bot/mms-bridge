@@ -4,40 +4,15 @@
         {
             "object_label": "tomato",
             "bbox": [
-                388.125,
-                224.0625,
-                111.25,
-                112.5
+                471.25,
+                220.78125,
+                125.625,
+                118.125
             ],
             "object_coordinates": [
-                0.05095690279380269,
-                -0.24468455157884794,
-                -0.0001158720678045011
-            ],
-            "deformation_mode": "uniform deformation",
-            "probability": [
-                [
-                    0.00019803627219516784,
-                    0.001708782510831952,
-                    0.0019251303747296333,
-                    0.9961680769920349
-                ]
-            ],
-            "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent uniform deformation when grasping.",
-            "decoded_answer": "smooth, uniform, no texture, it is real."
-        },
-        {
-            "object_label": "tomato",
-            "bbox": [
-                202.5,
-                218.90625,
-                118.125,
-                124.21875
-            ],
-            "object_coordinates": [
-                0.04985076595612225,
-                -0.3588034335200576,
-                -4.471081401241639e-05
+                0.012077100986809322,
+                -0.3174034462761313,
+                -0.01764337292176793
             ],
             "deformation_mode": "minimal deformation",
             "probability": [
@@ -50,6 +25,31 @@
             ],
             "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
             "decoded_answer": "mostly smooth, uneven, a few sparse dots, it is fake."
+        },
+        {
+            "object_label": "tomato",
+            "bbox": [
+                267.5,
+                255.9375,
+                110.625,
+                105.9375
+            ],
+            "object_coordinates": [
+                0.1506824511628436,
+                -0.3002282983669855,
+                -0.017409960279216374
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+            "decoded_answer": "smooth, uniform, no texture, it is real."
         }
     ]
 }

@@ -4,15 +4,40 @@
         {
             "object_label": "potato",
             "bbox": [
-                215.0,
-                172.96875,
-                125.625,
-                181.875
+                507.5,
+                228.75,
+                119.375,
+                184.6875
             ],
             "object_coordinates": [
-                0.0392640985099198,
-                -0.37848602157619754,
-                -0.00015124832151414136
+                -0.009249267269219541,
+                -0.29004678372076237,
+                -0.017462544357296494
+            ],
+            "deformation_mode": "irregular deformation",
+            "probability": [
+                [
+                    0.9983924031257629,
+                    0.0006052585085853934,
+                    0.0007137271459214389,
+                    0.00028861514874733984
+                ]
+            ],
+            "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent irregular deformation when grasping.",
+            "decoded_answer": "rough, small indentations, wrinkled texture, it is real."
+        },
+        {
+            "object_label": "potato",
+            "bbox": [
+                296.25,
+                226.875,
+                126.25,
+                177.65625
+            ],
+            "object_coordinates": [
+                0.12680030793832195,
+                -0.2954107887695537,
+                -0.017408456956480134
             ],
             "deformation_mode": "minimal deformation",
             "probability": [
@@ -25,31 +50,6 @@
             ],
             "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
             "decoded_answer": "smooth, no bumps, no texture, it is fake."
-        },
-        {
-            "object_label": "potato",
-            "bbox": [
-                455.0,
-                190.3125,
-                125.0,
-                171.5625
-            ],
-            "object_coordinates": [
-                0.048935354478706096,
-                -0.22846145120142541,
-                -0.00017621623404084907
-            ],
-            "deformation_mode": "uniform deformation",
-            "probability": [
-                [
-                    0.00019803627219516784,
-                    0.001708783209323883,
-                    0.001925131306052208,
-                    0.9961680769920349
-                ]
-            ],
-            "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent uniform deformation when grasping.",
-            "decoded_answer": "rough, small indentations, wrinkled texture, it is real."
         }
     ]
 }

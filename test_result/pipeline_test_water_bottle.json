@@ -4,15 +4,40 @@
         {
             "object_label": "water bottle",
             "bbox": [
-                193.75,
-                42.65625,
-                125.0,
-                436.40625
+                277.5,
+                70.3125,
+                126.25,
+                408.75
             ],
             "object_coordinates": [
-                0.03719554194920982,
-                -0.361920014432205,
-                -0.00014461480488831002
+                0.13872812016783237,
+                -0.32253499986803724,
+                -0.01758651669206701
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for water bottle and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+            "decoded_answer": "smooth, no bumps, no texture, it is full."
+        },
+        {
+            "object_label": "water bottle",
+            "bbox": [
+                461.875,
+                76.875,
+                128.125,
+                402.1875
+            ],
+            "object_coordinates": [
+                0.017395463122408347,
+                -0.31874538514436546,
+                -0.017638371720315293
             ],
             "deformation_mode": "irregular deformation",
             "probability": [
@@ -24,32 +49,7 @@
                 ]
             ],
             "question": "Describe the tactile image for water bottle and tell me if it's full or empty as it underwent irregular deformation when grasping.",
-            "decoded_answer": "smooth, olduk\u00e7a kecil keriput, di stempel je, tidak empuk, tidak ada je gairi, it is empty."
-        },
-        {
-            "object_label": "water bottle",
-            "bbox": [
-                403.75,
-                50.15625,
-                130.0,
-                428.90625
-            ],
-            "object_coordinates": [
-                0.041359429935554325,
-                -0.2288530498806109,
-                -0.0001980374098009552
-            ],
-            "deformation_mode": "slightly deformation",
-            "probability": [
-                [
-                    9.178886830341071e-05,
-                    0.004464193247258663,
-                    0.9951205849647522,
-                    0.0003233464958611876
-                ]
-            ],
-            "question": "Describe the tactile image for water bottle and tell me if it's full or empty as it underwent slightly deformation when grasping.",
-            "decoded_answer": "smooth, olduk\u00e7a\u0e41\u0e1a\u0e19, no texture, it is full."
+            "decoded_answer": "smooth,<loc0155>, no bumps, no texture, it is empty."
         }
     ]
 }

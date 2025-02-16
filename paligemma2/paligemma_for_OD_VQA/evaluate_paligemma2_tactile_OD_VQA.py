@@ -79,7 +79,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 TORCH_DTYPE = torch.bfloat16
 
 # Update this checkpoint path to your fine-tuned VQA checkpoint.
-checkpoint_path = "check_point/paligemma2_od_vqa_augmented_v2/checkpoint-6170"
+checkpoint_path = "check_point/paligemma2_od_vqa_augmented_v3/checkpoint-9255"
 
 # Load the PEFT config and the fine-tuned model.
 config = PeftConfig.from_pretrained(checkpoint_path)
@@ -131,7 +131,7 @@ for idx in tqdm(range(len(valid_vqa_dataset)), desc="Evaluating validation sampl
     })
 
 # Optionally, you can write the results to a JSON file.
-with open("inference_results_10epoch_manually_split.json", "w") as f:
+with open("inference_results_15epoch_manually_split.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print("Inference on the vqa validation set completed.")

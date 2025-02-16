@@ -154,7 +154,7 @@ def collate_fn(batch):
 ##########################################
 
 args = TrainingArguments(
-    num_train_epochs=10,
+    num_train_epochs=15,
     remove_unused_columns=False,
     per_device_train_batch_size=1,
     gradient_accumulation_steps=4,
@@ -167,7 +167,7 @@ args = TrainingArguments(
     save_strategy="steps",
     save_steps=1000,
     save_total_limit=1,
-    output_dir="./check_point/paligemma2_od_vqa_augmented_v2",
+    output_dir="./check_point/paligemma2_od_vqa_augmented_v3",
     bf16=True,
     report_to=["tensorboard"],
     dataloader_pin_memory=False

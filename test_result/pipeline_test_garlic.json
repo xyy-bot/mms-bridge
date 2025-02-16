@@ -4,40 +4,15 @@
         {
             "object_label": "garlic",
             "bbox": [
-                386.25,
-                236.71875,
-                89.375,
-                118.125
+                335.0,
+                291.09375,
+                125.625,
+                130.78125
             ],
             "object_coordinates": [
-                0.06057427584249644,
-                -0.2528207717228168,
-                -4.050705659797149e-05
-            ],
-            "deformation_mode": "minimal deformation",
-            "probability": [
-                [
-                    6.75973278703168e-05,
-                    0.9958354234695435,
-                    0.0033969483338296413,
-                    0.0007000702898949385
-                ]
-            ],
-            "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
-            "decoded_answer": "rough, dense groove, directional ridges, it is fake."
-        },
-        {
-            "object_label": "garlic",
-            "bbox": [
-                191.875,
-                211.875,
-                126.875,
-                127.03125
-            ],
-            "object_coordinates": [
-                0.04631040596242388,
-                -0.362650878303264,
-                -8.71844949792977e-05
+                0.10198591933966898,
+                -0.2683709788357111,
+                -0.01718312982856357
             ],
             "deformation_mode": "minimal deformation",
             "probability": [
@@ -50,6 +25,31 @@
             ],
             "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
             "decoded_answer": "mostly smooth, no bumps, few small ridges, it is real."
+        },
+        {
+            "object_label": "garlic",
+            "bbox": [
+                536.875,
+                291.09375,
+                95.625,
+                135.46875
+            ],
+            "object_coordinates": [
+                -0.020378651420200997,
+                -0.26519466809018116,
+                -0.017243888209170166
+            ],
+            "deformation_mode": "irregular deformation",
+            "probability": [
+                [
+                    0.9983924031257629,
+                    0.0006052585085853934,
+                    0.0007137267966754735,
+                    0.00028861514874733984
+                ]
+            ],
+            "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent irregular deformation when grasping.",
+            "decoded_answer": "rough, dense groove, directional ridges, it is fake."
         }
     ]
 }

@@ -171,6 +171,7 @@ class GelSightReader(threading.Thread):
         frame_number = 0
 
         while self.running:
+            # Compute the intended time for this frame
             intended_time = self.experiment_start_time + frame_number * self.sampling_interval
             current_time = time.time()
             sleep_time = intended_time - current_time
@@ -179,18 +180,24 @@ class GelSightReader(threading.Thread):
 
             ret, frame = self.video_stream.read()
             if ret:
-                # Rotate and resize the frame
+                # Process the captured frame
                 frame = cv2.rotate(frame, cv2.ROTATE_90_CLOCKWISE)
                 frame = cv2.resize(frame, self.frame_size)
-
-                # Save the current frame as the last frame captured.
-                self.last_frame = frame
-
-                self.video_writer.write(frame)
-                frame_number += 1
+                self.last_frame = frame  # Update the last good frame
             else:
                 print("Failed to read frame from video source.")
-                # You can choose to break or continue here.
+                # Optionally, use the last captured frame to maintain continuity:
+                if self.last_frame is not None:
+                    frame = self.last_frame
+                else:
+                    # If no frame is available, skip writing this iteration.
+                    frame_number += 1
+                    continue
+
+            # Write the frame (whether newly captured or a duplicate)
+            self.video_writer.write(frame)
+            # Always increment the frame counter so that every write advances the PTS.
+            frame_number += 1
         self.stop()
 
     def stop(self):
