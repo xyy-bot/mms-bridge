@@ -1,0 +1,27 @@
+EarlyStopping: Training stopped early as no improvement observed in last 100 epochs. Best results observed at epoch 334, best model saved as best.pt.
+To update EarlyStopping(patience=100) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+434 epochs completed in 0.111 hours.
+Optimizer stripped from runs/detect/train11/weights/last.pt, 6.3MB
+Optimizer stripped from runs/detect/train11/weights/best.pt, 6.3MB
+
+Validating runs/detect/train11/weights/best.pt...
+Ultralytics 8.3.70 🚀 Python-3.10.14 torch-2.4.1+cu121 CUDA:0 (NVIDIA GeForce RTX 4090, 24215MiB)
+Model summary (fused): 168 layers, 3,008,183 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 13.86it/s]
+                   all         60         70      0.973      0.988      0.995      0.988
+                banana          8          9          1          1      0.995      0.995
+              beer can          1          1      0.954          1      0.995      0.995
+              cola can          2          2       0.97          1      0.995      0.995
+              cucumber          7          7          1          1      0.995      0.977
+              eggplant          2          2       0.97          1      0.995      0.995
+                garlic          4          6      0.988          1      0.995      0.956
+     green bell pepper          9         10      0.993          1      0.995      0.972
+                 lemon          4          4      0.982          1      0.995      0.995
+                potato          5         10      0.991          1      0.995      0.984
+       red bell pepper          6          6      0.857          1      0.995      0.995
+           soft roller          1          1      0.954          1      0.995      0.995
+                tomato          5          6          1      0.847      0.995      0.995
+          water bottle          6          6       0.99          1      0.995      0.995
+Speed: 0.1ms preprocess, 0.3ms inference, 0.0ms loss, 0.2ms postprocess per image
+Results saved to runs/detect/train11

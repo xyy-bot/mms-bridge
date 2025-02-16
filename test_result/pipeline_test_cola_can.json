@@ -1,0 +1,55 @@
+{
+    "experiment_name": "pipeline_test_cola_can",
+    "detections": [
+        {
+            "object_label": "cola can",
+            "bbox": [
+                306.875,
+                176.25,
+                130.0,
+                226.40625
+            ],
+            "object_coordinates": [
+                0.11827987932639186,
+                -0.312356712091725,
+                -0.01762315771231926
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for cola can and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+            "decoded_answer": "smooth, no bumps, no texture, it is full."
+        },
+        {
+            "object_label": "cola can",
+            "bbox": [
+                498.125,
+                195.9375,
+                134.375,
+                232.5
+            ],
+            "object_coordinates": [
+                -0.008201793990616421,
+                -0.2957489656785147,
+                -0.017545256106629492
+            ],
+            "deformation_mode": "irregular deformation",
+            "probability": [
+                [
+                    0.9983924031257629,
+                    0.0006052585085853934,
+                    0.0007137267966754735,
+                    0.00028861514874733984
+                ]
+            ],
+            "question": "Describe the tactile image for cola can and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+            "decoded_answer": "smooth,<loc0155>, no bumps, no texture, it is empty."
+        }
+    ]
+}

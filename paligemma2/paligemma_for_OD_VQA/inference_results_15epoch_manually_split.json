@@ -1,0 +1,3132 @@
+[
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, no texture, it is real.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, a few small dots, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a few small dots, wrinkled texture, it is real.",
+    "generated": "smooth, a few small dots, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, uneven, a few sparse dots, it is fake.",
+    "generated": "mostly smooth, uneven, a few sparse dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for water bottle regarding surface property, and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, dense groove, directional ridges, it is fake.",
+    "generated": "rough, dense groove, directional ridges, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for green bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, a few small dimples, no texture, it is fake.",
+    "generated": "mostly smooth, a few small dimples, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, a rising edge, no texture, it is fake.",
+    "generated": "smooth, a rising edge, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is full.",
+    "generated": "smooth, no bumps, no texture, it is full."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for red bell pepper and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, no texture, it is fake.",
+    "generated": "mostly smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "mostly smooth, no bumps, few small ridges, it is real.",
+    "generated": "mostly smooth, no bumps, few small ridges, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for banana and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "slightly rough, sparse dimples, no texture, it is real.",
+    "generated": "slightly rough, sparse dimples, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for cola can regarding surface property, and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is empty.",
+    "generated": "smooth, no bumps, no texture, it is empty."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, evenly distributed bumps, grid-like texture, it is real.",
+    "generated": "rough, evenly distributed bumps, grid-like texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, highly bumpy, many grainy dots, it is fake.",
+    "generated": "rough, highly bumpy, many grainy dots, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, uneven, a few grooves, it is real.",
+    "generated": "rough, uneven, a few grooves, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for eggplant and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "sparse dots, uneven, not texture, it is fake.",
+    "generated": "sparse dots, uneven, not texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for cucumber and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, slightly bumpy, no texture, it is fake.",
+    "generated": "smooth, slightly bumpy, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "rough, small indentations, wrinkled texture, it is real.",
+    "generated": "rough, small indentations, wrinkled texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for tomato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, uniform, no texture, it is real.",
+    "generated": "smooth, uniform, no texture, it is real."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  },
+  {
+    "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+    "ground_truth": "smooth, no bumps, no texture, it is fake.",
+    "generated": "smooth, no bumps, no texture, it is fake."
+  }
+]
