@@ -59,13 +59,14 @@ def process_and_plot(input_folder, output_folder):
                 object_groups[object_name].append((file, extracted_df))
 
     for object_name, experiments in object_groups.items():
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(5, 4))
         for file, df in experiments:
             plt.plot(df['Time'], df[force_col], label=file)
 
         plt.xlabel("Time (s)")  # **单位改为秒**
         plt.ylabel("Force")
-        plt.title(f"Force Comparison for {object_name}")
+        # plt.title(f"Force Comparison for {object_name}")
+        plt.grid(True)
         plt.legend()
 
         output_plot_path = os.path.join(output_folder, f"{object_name}.png")
@@ -75,7 +76,7 @@ def process_and_plot(input_folder, output_folder):
 
 
 # 设置输入和输出文件夹
-input_folder = "./pipeline_test_tomato"  # 这里替换成你的 CSV 文件所在目录
+input_folder = "./pipeline_test_garlic_v3"  # 这里替换成你的 CSV 文件所在目录
 output_folder = "./processed"
 
 process_and_plot(input_folder, output_folder)

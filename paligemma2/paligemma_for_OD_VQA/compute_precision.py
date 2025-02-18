@@ -58,7 +58,7 @@ def compute_precision(results):
 
 if __name__ == "__main__":
     # Update the file name to your inference results file.
-    results_filename = "inference_results_15epoch_manually_split.json"
+    results_filename = "inference_results_10epoch_manually_split.json"
     results = load_results(results_filename)
     precision, correct, total = compute_precision(results)
     print(f"Precision: {precision*100:.2f}% ({correct} out of {total} records are accurate)")
