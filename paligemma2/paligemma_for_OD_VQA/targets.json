@@ -1,0 +1,1402 @@
+[
+  {
+    "xyxy": [
+      [
+        216.25,
+        209.0625,
+        345.625,
+        335.625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      11
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "tomato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        217.5,
+        172.5,
+        396.875,
+        312.65625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        290.0,
+        9.84375,
+        412.5,
+        454.6875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      12
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "water bottle"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        252.5,
+        46.40625,
+        457.5,
+        398.4375
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      4
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "eggplant"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        242.5,
+        151.875,
+        343.125,
+        288.28125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      7
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "lemon"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        303.75,
+        254.53125,
+        446.25,
+        391.40625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        340.0,
+        242.8125,
+        480.0,
+        380.625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      9
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "red bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        227.5,
+        146.25,
+        331.25,
+        277.96875
+      ],
+      [
+        370.0,
+        173.90625,
+        453.75,
+        275.625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      5,
+      5
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "garlic",
+        "garlic"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        328.75,
+        217.03125,
+        491.875,
+        370.3125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      9
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "red bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        130.0,
+        162.65625,
+        561.875,
+        250.3125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      3
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cucumber"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        266.25,
+        181.40625,
+        494.375,
+        361.875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      1
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "beer can"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        292.5,
+        146.25,
+        548.125,
+        429.84375
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      0
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "banana"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        201.25,
+        216.5625,
+        363.125,
+        420.46875
+      ],
+      [
+        375.0,
+        123.28125,
+        533.75,
+        323.90625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      8,
+      8
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "potato",
+        "potato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        135.625,
+        173.4375,
+        548.125,
+        378.28125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      3
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cucumber"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        208.125,
+        164.53125,
+        386.875,
+        310.3125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        180.625,
+        14.53125,
+        373.75,
+        184.21875
+      ],
+      [
+        239.375,
+        205.3125,
+        426.25,
+        371.71875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6,
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper",
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        332.5,
+        215.15625,
+        483.75,
+        360.46875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      11
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "tomato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        286.25,
+        236.25,
+        442.5,
+        386.25
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        315.0,
+        23.90625,
+        463.125,
+        461.71875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      12
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "water bottle"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        316.875,
+        205.3125,
+        473.75,
+        364.21875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      9
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "red bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        165.0,
+        24.84375,
+        515.625,
+        376.40625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      12
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "water bottle"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        331.25,
+        131.25,
+        455.625,
+        457.5
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      0
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "banana"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        301.875,
+        169.6875,
+        437.5,
+        309.84375
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      11
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "tomato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        235.625,
+        173.90625,
+        561.25,
+        368.90625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      0
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "banana"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        276.25,
+        119.0625,
+        457.5,
+        415.3125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      0
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "banana"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        327.5,
+        267.65625,
+        425.625,
+        375.0
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      5
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "garlic"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        351.875,
+        226.875,
+        506.25,
+        364.21875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        206.25,
+        126.5625,
+        336.25,
+        255.0
+      ],
+      [
+        328.125,
+        215.625,
+        481.25,
+        359.0625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      11,
+      11
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "tomato",
+        "tomato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        192.5,
+        85.78125,
+        448.75,
+        407.8125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      0
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "banana"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        263.125,
+        3.28125,
+        415.625,
+        420.0
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      3
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cucumber"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        220.0,
+        149.53125,
+        400.0,
+        294.375
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      9
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "red bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        383.75,
+        323.90625,
+        493.75,
+        438.28125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      11
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "tomato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        116.25,
+        43.59375,
+        486.25,
+        233.90625
+      ],
+      [
+        111.875,
+        212.34375,
+        503.125,
+        413.90625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      0,
+      0
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "banana",
+        "banana"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        144.375,
+        135.9375,
+        286.25,
+        320.625
+      ],
+      [
+        347.5,
+        173.90625,
+        492.5,
+        365.15625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      8,
+      8
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "potato",
+        "potato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        223.125,
+        211.875,
+        495.625,
+        417.1875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      2
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cola can"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        341.25,
+        268.125,
+        441.25,
+        382.5
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      7
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "lemon"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        320.625,
+        209.0625,
+        485.0,
+        367.03125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      9
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "red bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        292.5,
+        160.3125,
+        486.25,
+        351.5625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      9
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "red bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        283.75,
+        219.84375,
+        437.5,
+        377.8125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        142.5,
+        182.34375,
+        304.375,
+        389.53125
+      ],
+      [
+        343.75,
+        172.5,
+        505.0,
+        364.21875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      8,
+      8
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "potato",
+        "potato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        209.375,
+        157.03125,
+        298.125,
+        247.96875
+      ],
+      [
+        344.375,
+        207.1875,
+        451.875,
+        311.25
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      5,
+      5
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "garlic",
+        "garlic"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        253.75,
+        195.46875,
+        550.625,
+        366.09375
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      4
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "eggplant"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        229.375,
+        134.0625,
+        536.25,
+        423.28125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      3
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cucumber"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        132.5,
+        81.09375,
+        311.875,
+        232.96875
+      ],
+      [
+        295.625,
+        199.21875,
+        480.0,
+        339.84375
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      8,
+      8
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "potato",
+        "potato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        235.625,
+        153.28125,
+        398.75,
+        321.5625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        296.25,
+        71.25,
+        445.625,
+        459.84375
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      0
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "banana"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        308.75,
+        38.90625,
+        508.75,
+        206.25
+      ],
+      [
+        246.875,
+        226.40625,
+        450.625,
+        386.25
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      8,
+      8
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "potato",
+        "potato"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        180.0,
+        66.5625,
+        513.125,
+        341.71875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      0
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "banana"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        185.0,
+        144.84375,
+        572.5,
+        387.65625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      3
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cucumber"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        305.625,
+        237.65625,
+        400.625,
+        367.03125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      7
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "lemon"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        240.0,
+        100.3125,
+        496.875,
+        432.65625
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      3
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cucumber"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        301.25,
+        171.09375,
+        438.125,
+        401.25
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      2
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cola can"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        256.25,
+        253.125,
+        512.5,
+        363.28125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      10
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "soft roller"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        340.0,
+        47.8125,
+        461.875,
+        479.53125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      12
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "water bottle"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        194.375,
+        162.65625,
+        373.75,
+        301.875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      6
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "green bell pepper"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        179.375,
+        58.125,
+        573.75,
+        341.71875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      12
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "water bottle"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        230.625,
+        34.6875,
+        543.125,
+        421.875
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      12
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "water bottle"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        350.0,
+        236.25,
+        432.5,
+        314.53125
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      5
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "garlic"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        316.25,
+        170.625,
+        471.25,
+        338.4375
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      7
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "lemon"
+      ]
+    },
+    "metadata": {}
+  },
+  {
+    "xyxy": [
+      [
+        275.0,
+        44.53125,
+        468.125,
+        461.25
+      ]
+    ],
+    "mask": null,
+    "confidence": null,
+    "class_id": [
+      3
+    ],
+    "tracker_id": null,
+    "data": {
+      "class_name": [
+        "cucumber"
+      ]
+    },
+    "metadata": {}
+  }
+]
