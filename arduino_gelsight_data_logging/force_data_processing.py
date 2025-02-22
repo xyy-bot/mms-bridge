@@ -75,7 +75,7 @@ def process_and_plot(input_folder, output_folder):
 
 
 # 设置输入和输出文件夹
-input_folder = "./Force_for_vqvae"  # 这里替换成你的 CSV 文件所在目录
-output_folder = "./Force_for_vqvae/processed"
+input_folder = "./Force_data_v2"  # 这里替换成你的 CSV 文件所在目录
+output_folder = "./Force_data_v2/processed"
 
 process_and_plot(input_folder, output_folder)

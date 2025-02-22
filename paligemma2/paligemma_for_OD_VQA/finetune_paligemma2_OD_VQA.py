@@ -2,6 +2,7 @@ import os
 import json
 import random
 from PIL import Image
+from tensorflow.python.layers.core import dropout
 from torch.utils.data import Dataset
 import torch
 from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration

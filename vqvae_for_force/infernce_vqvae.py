@@ -83,29 +83,39 @@ if __name__ == '__main__':
 
     # Define your custom mapping from the original label string to the deformation label.
     custom_mapping = {'aluminum cube': 1, 'empty_cola_can': 0, 'empty_water_bottle': 0, 'fake_banana': 1, 'fake_cucumber': 1,
-     'fake_eggplant': 1, 'fake_garlic': 1, 'fake_green_paprika': 1, 'fake_lemon': 1, 'fake_paprika': 1,
-     'fake_potato': 1, 'fake_red_paprika': 1, 'fake_tomato': 1, 'full_cola_can': 1, 'full_water_bottle': 2,
+     'fake_eggplant': 1, 'fake_garlic': 1, 'fake_green_paprika': 1, 'fake_lemon': 1, 'fake_paprika': 1, 'fake_green_bell_pepper': 1,
+     'fake_potato': 1, 'fake_red_paprika': 1, 'fake_red_bell_pepper': 1, 'fake_tomato': 1, 'full_cola_can': 1, 'full_water_bottle': 2,
      'real_banana': 1, 'real_cucumber': 1, 'real_eggplant': 1, 'real_garlic': 1, 'real_green_paprika': 1,
-     'real_lemon': 1, 'real_potato': 1, 'real_red_paprika': 1, 'real_tomato': 1, 'rigid': 1, 'soft': 3}
+     'real_lemon': 1, 'real_potato': 1, 'real_red_paprika': 1,  'real_red_bell_pepper': 1, 'real_tomato': 1, 'rigid': 1, 'soft': 3,  'real_green_bell_pepper': 1}
 
     total = 0
     correct = 0
-    for i in range(len(test_dataset)):
-        sample, true_label = test_dataset[i]
-        # Get the original label string from the dataset.
-        true_label_str = idx_to_label.get(true_label, str(true_label))
-        # Replace the true label string with your custom deformation label.
-        # Here we assign a default value (e.g., 4) if the true label is not one of the four.
-        true_label_mapped = custom_mapping.get(true_label_str, 5)
+    # Open a file for saving the inference results.
+    with open("vqvae_evaluation_results.txt", "w") as f_out:
+        for i in range(len(test_dataset)):
+            sample, true_label = test_dataset[i]
+            # Get the original label string from the dataset.
+            true_label_str = idx_to_label.get(true_label, str(true_label))
+            # Map the true label string to your custom deformation label (default to 5 if not in mapping).
+            true_label_mapped = custom_mapping.get(true_label_str, 5)
 
-        predicted_label, probs = classify_sample_with_classifier(model, sample, device)
-        total += 1
-        print(
-            f"Sample {i}: True label = {true_label_str} (mapped: {true_label_mapped}), "
-            f"Predicted label = {predicted_label}, Probabilities = {probs}"
-        )
-        if predicted_label == true_label_mapped:
-            correct += 1
+            # Classify the sample.
+            predicted_label, probs = classify_sample_with_classifier(model, sample, device)
+            total += 1
 
-    accuracy = correct / total if total > 0 else 0
-    print("Overall Accuracy: {:.2f}%".format(accuracy * 100))
+            # Create a result line.
+            result_line = (
+                f"Sample {i}: True label = {true_label_str} (mapped: {true_label_mapped}), "
+                f"Predicted label = {predicted_label}, Probabilities = {probs}\n"
+            )
+            # Print and write the result.
+            print(result_line.strip())
+            f_out.write(result_line)
+
+            if predicted_label == true_label_mapped:
+                correct += 1
+
+        accuracy = correct / total if total > 0 else 0
+        acc_line = "Overall Accuracy: {:.2f}%\n".format(accuracy * 100)
+        print(acc_line.strip())
+        f_out.write(acc_line)

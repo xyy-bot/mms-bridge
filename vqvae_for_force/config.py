@@ -1,7 +1,7 @@
 # config.py
 
 # Dataset-related configurations (CSV file storage path, be sure to modify it to your actual path)
-DATA_FOLDER = "./dataset/data_for_force"
+DATA_FOLDER = "./dataset/data_for_force_merged"
 TRAIN_DATA_FOLDER = "./dataset/train_data_four_class"
 HAS_HEADER = True        # Whether the CSV file contains a header
 DELIMITER = ','          # CSV file delimiter
