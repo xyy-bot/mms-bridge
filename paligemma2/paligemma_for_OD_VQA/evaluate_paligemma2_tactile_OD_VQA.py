@@ -171,13 +171,10 @@ with torch.inference_mode():
         prefix_length = inputs["input_ids"].shape[-1]
 
         # Skip timing for the first sample (warm-up)
-        if i == 0:
-            generation = model.generate(**inputs, max_new_tokens=256, do_sample=False)
-        else:
-            start_time = time.time()
-            generation = model.generate(**inputs, max_new_tokens=256, do_sample=False)
-            inference_time = time.time() - start_time
-            inference_times.append(inference_time)
+        start_time = time.time()
+        generation = model.generate(**inputs, max_new_tokens=256, do_sample=False)
+        inference_time = time.time() - start_time
+        inference_times.append(inference_time)
 
         generation = generation[0][prefix_length:]
         generated_text = processor.decode(generation, skip_special_tokens=True)
@@ -210,6 +207,19 @@ with torch.inference_mode():
 if inference_times:
     avg_inference_time = sum(inference_times) / len(inference_times)
     print("Average inference time per sample (excluding first sample):", avg_inference_time)
+
+    # Prepare data to save
+    inference_data = {
+        "inference_times": inference_times,
+        "average_inference_time": avg_inference_time
+    }
+
+    # Save to a JSON file
+    with open("inference_time.json", "w") as json_file:
+        json.dump(inference_data, json_file, indent=4)
+
+    print("Inference times saved to inference_results.json")
+
 else:
     print("No inference times recorded (check your dataset length).")
 
