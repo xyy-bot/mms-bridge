@@ -1,0 +1,55 @@
+{
+    "experiment_name": "pipeline_valid_garlic_3",
+    "detections": [
+        {
+            "object_label": "garlic",
+            "bbox": [
+                344.375,
+                179.0625,
+                93.125,
+                115.78125
+            ],
+            "object_coordinates": [
+                0.10541929027784466,
+                -0.34679033503803675,
+                -0.017848447437363968
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+            "decoded_answer": "rough, dense groove, directional ridges, it is fake."
+        },
+        {
+            "object_label": "garlic",
+            "bbox": [
+                316.25,
+                330.9375,
+                121.25,
+                126.5625
+            ],
+            "object_coordinates": [
+                0.11600675665792975,
+                -0.24386306507420422,
+                -0.016979952449512725
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for garlic and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+            "decoded_answer": "mostly smooth, no bumps, few small ridges, it is real."
+        }
+    ]
+}

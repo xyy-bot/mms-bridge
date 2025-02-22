@@ -1,0 +1,55 @@
+{
+    "experiment_name": "pipeline_water_bottle_3",
+    "detections": [
+        {
+            "object_label": "water bottle",
+            "bbox": [
+                227.5,
+                61.875,
+                126.25,
+                417.1875
+            ],
+            "object_coordinates": [
+                0.17140412564774096,
+                -0.32572539300938735,
+                -0.017602262681966352
+            ],
+            "deformation_mode": "slightly deformation",
+            "probability": [
+                [
+                    9.178886830341071e-05,
+                    0.004464193247258663,
+                    0.9951205849647522,
+                    0.0003233464958611876
+                ]
+            ],
+            "question": "Describe the tactile image for water bottle and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+            "decoded_answer": "smooth,<loc0578>, no bumps, no texture, it is full."
+        },
+        {
+            "object_label": "water bottle",
+            "bbox": [
+                435.0,
+                51.5625,
+                127.5,
+                427.5
+            ],
+            "object_coordinates": [
+                0.03505701962616939,
+                -0.3272794320893085,
+                -0.017706795209981585
+            ],
+            "deformation_mode": "irregular deformation",
+            "probability": [
+                [
+                    0.9983924031257629,
+                    0.0006052585085853934,
+                    0.0007137267966754735,
+                    0.00028861514874733984
+                ]
+            ],
+            "question": "Describe the tactile image for water bottle and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+            "decoded_answer": "smooth, olduk\u00e7a densa<seg107>, banyak bintik, itu kosong."
+        }
+    ]
+}

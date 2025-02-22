@@ -1,0 +1,55 @@
+{
+    "experiment_name": "pipeline_valid_potato_0",
+    "detections": [
+        {
+            "object_label": "potato",
+            "bbox": [
+                311.25,
+                126.09375,
+                134.375,
+                171.09375
+            ],
+            "object_coordinates": [
+                0.11340752406395112,
+                -0.3634613607864837,
+                -0.017973031872988543
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+            "decoded_answer": "rough, small indentations, wrinkled texture, it is real."
+        },
+        {
+            "object_label": "potato",
+            "bbox": [
+                325.0,
+                323.90625,
+                130.0,
+                155.15625
+            ],
+            "object_coordinates": [
+                0.10750583436904526,
+                -0.23896190471153572,
+                -0.016948122347655803
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for potato and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+            "decoded_answer": "smooth, no bumps, no texture, it is fake."
+        }
+    ]
+}

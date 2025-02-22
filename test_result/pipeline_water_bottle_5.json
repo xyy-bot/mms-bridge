@@ -1,0 +1,55 @@
+{
+    "experiment_name": "pipeline_water_bottle_5",
+    "detections": [
+        {
+            "object_label": "water bottle",
+            "bbox": [
+                230.625,
+                61.875,
+                116.875,
+                417.1875
+            ],
+            "object_coordinates": [
+                0.17245475876179664,
+                -0.325696223387945,
+                -0.01762148225815413
+            ],
+            "deformation_mode": "slightly deformation",
+            "probability": [
+                [
+                    9.178886830341071e-05,
+                    0.004464193247258663,
+                    0.9951205849647522,
+                    0.0003233464958611876
+                ]
+            ],
+            "question": "Describe the tactile image for water bottle and tell me if it's full or empty as it underwent slightly deformation when grasping.",
+            "decoded_answer": "smooth, no bumps, no texture, it is full."
+        },
+        {
+            "object_label": "water bottle",
+            "bbox": [
+                478.75,
+                61.875,
+                128.125,
+                417.1875
+            ],
+            "object_coordinates": [
+                0.006272891481864093,
+                -0.3234704755020267,
+                -0.01772102623867572
+            ],
+            "deformation_mode": "irregular deformation",
+            "probability": [
+                [
+                    0.9983924031257629,
+                    0.0006052585085853934,
+                    0.0007137271459214389,
+                    0.00028861514874733984
+                ]
+            ],
+            "question": "Describe the tactile image for water bottle and tell me if it's full or empty as it underwent irregular deformation when grasping.",
+            "decoded_answer": "smooth, no bumps, no texture, it is empty."
+        }
+    ]
+}

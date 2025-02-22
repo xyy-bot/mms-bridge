@@ -252,7 +252,7 @@ if __name__ == "__main__":
         os.makedirs(folder, exist_ok=True)
 
     # Load Models
-    pali_checkpoint_path = "paligemma2/paligemma_for_OD_VQA/check_point/paligemma2_od_vqa_augmented_v3/checkpoint-9255"
+    pali_checkpoint_path = "paligemma2/paligemma_for_OD_VQA/check_point/paligemma2_od_vqa_augmented_v2/checkpoint-6170"
     pali_ODVQA_model, pali_ODVQA_processor = load_paligemma2_for_OD_VQA(pali_checkpoint_path)
     print("Paligemma2 loaded.")
 
@@ -282,7 +282,7 @@ if __name__ == "__main__":
     # Activate gripper and set parameters
 
 
-    experiment_name = "pipeline_test_potatp_v3"
+    experiment_name = "pipeline_valid_potato_4"
     force_log_dir = os.path.join("test_result", "force_data", experiment_name)
     tactile_log_dir = os.path.join("test_result", "tactile_data", experiment_name)
 
@@ -316,8 +316,8 @@ if __name__ == "__main__":
         # Move robot to object location
         target_pose = initial_TCP_pose.copy()
         target_pose[0:2] = np.array(object_coords[0:2]).tolist()
-        target_pose[0] += 0.015
-        target_pose[1] -= 0.005
+        target_pose[0] += 0.009
+        target_pose[1] += 0.009
         rtde_c.moveL(target_pose, 0.05, 0.05, False)
         print("Robot moved above the", label)
         time.sleep(1)
@@ -381,15 +381,15 @@ if __name__ == "__main__":
         # If either "real" or "full" is detected, execute one action.
         if "real" in decoded_lower or "full" in decoded_lower:
             print("Action: Execute protocol for real and full objects.")
-            waypoint1 = target_pose.copy()
-            waypoint1[2] = 0.35000
-            waypoint2 = [0.26000472285307769, -0.25000384655204494, 0.35000, 5.5872421809991175e-05, -3.141495409245359, -6.257556031205824e-05]
-            waypoint3 = [0.26000472285307769, -0.25000384655204494, 0.24, 5.5872421809991175e-05, -3.141495409245359, -6.257556031205824e-05]
-            rtde_c.moveL(waypoint1, 0.05, 0.05, False)
-            rtde_c.moveL(waypoint2, 0.05, 0.05, False)
-            rtde_c.moveL(waypoint3, 0.05, 0.05, False)
+            # waypoint1 = target_pose.copy()
+            # waypoint1[2] = 0.35000
+            # waypoint2 = [0.26000472285307769, -0.25000384655204494, 0.35000, 5.5872421809991175e-05, -3.141495409245359, -6.257556031205824e-05]
+            # waypoint3 = [0.26000472285307769, -0.25000384655204494, 0.24, 5.5872421809991175e-05, -3.141495409245359, -6.257556031205824e-05]
+            # rtde_c.moveL(waypoint1, 0.05, 0.05, False)
+            # rtde_c.moveL(waypoint2, 0.05, 0.05, False)
+            # rtde_c.moveL(waypoint3, 0.05, 0.05, False)
             gripper.open()
-            rtde_c.moveL(waypoint2, 0.05, 0.05, False)
+            # rtde_c.moveL(waypoint2, 0.05, 0.05, False)
             time.sleep(2)
 
         # If either "fake" or "empty" is detected, execute the other action.
@@ -425,7 +425,7 @@ if __name__ == "__main__":
     with open(json_filename, "w") as json_file:
         json.dump(experiment_results, json_file, indent=4)
 
-    rtde_c.stopScript()
-    rtde_c.disconnect()
-    rtde_r.disconnect()
+    # rtde_c.stopScript()
+    # rtde_c.disconnect()
+    # rtde_r.disconnect()
 

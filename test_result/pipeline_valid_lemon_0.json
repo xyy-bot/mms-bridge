@@ -1,0 +1,55 @@
+{
+    "experiment_name": "pipeline_valid_lemon_0",
+    "detections": [
+        {
+            "object_label": "lemon",
+            "bbox": [
+                340.625,
+                165.9375,
+                91.25,
+                125.15625
+            ],
+            "object_coordinates": [
+                0.1084420383089018,
+                -0.35237412102707366,
+                -0.017846853753354486
+            ],
+            "deformation_mode": "minimal deformation",
+            "probability": [
+                [
+                    6.75973278703168e-05,
+                    0.9958354234695435,
+                    0.0033969483338296413,
+                    0.0007000702898949385
+                ]
+            ],
+            "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent minimal deformation when grasping.",
+            "decoded_answer": "rough, highly bumpy, many grainy dots, it is fake."
+        },
+        {
+            "object_label": "lemon",
+            "bbox": [
+                322.5,
+                301.875,
+                118.75,
+                155.625
+            ],
+            "object_coordinates": [
+                0.11263288623537508,
+                -0.25335492644929436,
+                -0.01703059153509523
+            ],
+            "deformation_mode": "uniform deformation",
+            "probability": [
+                [
+                    0.00019803627219516784,
+                    0.001708782510831952,
+                    0.0019251303747296333,
+                    0.9961680769920349
+                ]
+            ],
+            "question": "Describe the tactile image for lemon and tell me if it's real or fake as it underwent uniform deformation when grasping.",
+            "decoded_answer": "rough, evenly distributed bumps, grid-like texture, it is real."
+        }
+    ]
+}
