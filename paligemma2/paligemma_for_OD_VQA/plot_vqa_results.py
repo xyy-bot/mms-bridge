@@ -7,7 +7,10 @@ import nltk
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from bert_score import score as bert_score
 from sklearn.metrics import accuracy_score, precision_score
-
+plt.rcParams.update({
+    'font.size': 8,
+    'font.family': 'Consolas'
+})
 # --- Helper Functions ---
 
 def extract_classification(text):
@@ -76,11 +79,11 @@ def compute_metrics(results):
         classification_precision = 0
 
     return {
-        "Exact Match Accuracy": exact_match_accuracy,
-        "BLEU Score": avg_bleu,
-        "BERT Score": avg_bert,
-        "Classification Accuracy": classification_accuracy,
-        "Classification Precision": classification_precision
+        "E. M.": exact_match_accuracy,
+        "BLEU": avg_bleu,
+        "BERT": avg_bert,
+        "Acc. ": classification_accuracy,
+        "Precis. ": classification_precision
     }
 
 # --- Load Inference Results ---
@@ -108,30 +111,40 @@ llava_values = [metrics_llava[m] for m in metric_names]
 x = np.arange(len(metric_names))  # label locations
 width = 0.35  # width of each bar
 
-fig, ax = plt.subplots(figsize=(10, 6))
-rects2 = ax.bar(x - width/2, llava_values, width, label="Llava", color="salmon")
-rects1 = ax.bar(x + width/2, paligemma_values, width, label="Paligemma", color="skyblue")
+fig, ax = plt.subplots(figsize=(3.5, 2.5))
+rects1 = ax.bar(x - width/2, llava_values, width, label="Llava1.5", color="gray")
+rects2 = ax.bar(x + width/2, paligemma_values, width, label="PaliGemma2", color="skyblue")
 
 
 ax.set_ylabel("Score")
-ax.set_title("Comparison of VQA Evaluation Metrics: Paligemma vs. Llava")
+# ax.set_title("Comparison of VQA Evaluation Metrics: Paligemma vs. Llava")
 ax.set_xticks(x)
 ax.set_xticklabels(metric_names)
-ax.set_ylim(0, 1)
-ax.legend()
+ax.set_ylim(0, 1.1)
+ax.legend(loc="lower right")
 
 # Function to annotate bars with their values.
 def autolabel(rects):
     for rect in rects:
         height = rect.get_height()
-        ax.annotate(f"{height:.2f}",
+        ax.annotate(f"{height:.3f}",
                     xy=(rect.get_x() + rect.get_width() / 2, height),
                     xytext=(0, 3),  # 3 points vertical offset
                     textcoords="offset points",
                     ha="center", va="bottom")
 
-autolabel(rects1)
+def autolabel1(rects):
+    for rect in rects:
+        height = rect.get_height()
+        ax.annotate(f"{height:.3f}",
+                    xy=(rect.get_x() + rect.get_width() / 2, height-0.05),
+                    xytext=(0, 3),  # 3 points vertical offset
+                    textcoords="offset points",
+                    ha="center", va="bottom")
+
+autolabel1(rects1)
 autolabel(rects2)
 
 plt.tight_layout()
+plt.savefig("vqa_results_llava_pali.png", dpi=600)
 plt.show()

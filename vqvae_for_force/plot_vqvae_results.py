@@ -75,7 +75,7 @@ plt.show()
 
 
 # Plot 2: Histogram of Label Distribution
-plt.figure(figsize=(3.5, 1.5))
+plt.figure(figsize=(1.75, 1.5))
 bins = np.arange(-0.5, 4.5, 1)
 plt.hist(true_labels, bins=bins, alpha=0.5, label="True", facecolor="blue", edgecolor="black", density=True)
 plt.hist(pred_labels, bins=bins, alpha=0.5, label="Predicted", facecolor="green", edgecolor="black", density=True)
@@ -92,13 +92,13 @@ plt.show()
 
 # Plot 3: Sample-wise Prediction Scatter Plot
 correct = (true_labels == pred_labels)
-plt.figure(figsize=(3.5, 2.5))
+plt.figure(figsize=(1.75, 1.5))
 plt.scatter(sample_ids[correct], pred_labels[correct], color='green', label="Correct", s=10)
 plt.scatter(sample_ids[~correct], pred_labels[~correct], color='blue', label="Incorrect", s=10)
 plt.xlabel("Sample ID")
 plt.ylabel("Predicted Label")
 plt.yticks(range(4), [label_id_to_str[i] for i in range(4)])
-plt.title("Predictions per Sample")
+# plt.title("Predictions per Sample")
 plt.legend(fontsize=6)
 plt.tight_layout()
 plt.show()
