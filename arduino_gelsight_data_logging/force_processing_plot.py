@@ -1,6 +1,11 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+# Set global font to Consolas at 8 pt.
+plt.rcParams.update({
+    'font.size': 8,
+    'font.family': 'Consolas'
+})
 
 def extract_force_segment(file_path, output_folder):
     # Read CSV file
@@ -42,7 +47,7 @@ def extract_force_segment(file_path, output_folder):
 def process_and_plot_single_file(file_path, output_folder):
     extracted_df, force_col = extract_force_segment(file_path, output_folder)
     if extracted_df is not None:
-        plt.figure(figsize=(4, 3))
+        plt.figure(figsize=(3.5, 3))
         plt.plot(extracted_df['Time'], extracted_df[force_col], label=os.path.basename(file_path))
         plt.xlabel("Time (s)")
         plt.ylabel("Force")

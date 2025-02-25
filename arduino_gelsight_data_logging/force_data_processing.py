@@ -1,7 +1,11 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-
+# Set global font to Consolas at 8 pt.
+plt.rcParams.update({
+    'font.size': 8,
+    'font.family': 'Consolas'
+})
 
 def extract_force_segment(file_path, output_folder):
     # 读取 CSV 文件
@@ -59,23 +63,23 @@ def process_and_plot(input_folder, output_folder):
                 object_groups[object_name].append((file, extracted_df))
 
     for object_name, experiments in object_groups.items():
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(3.5, 2))
         for file, df in experiments:
             plt.plot(df['Time'], df[force_col], label=file)
 
         plt.xlabel("Time (s)")  # **单位改为秒**
         plt.ylabel("Force")
-        plt.title(f"Force Comparison for {object_name}")
-        plt.legend()
+        # plt.title(f"Force Comparison for {object_name}")
+        # plt.legend()
 
         output_plot_path = os.path.join(output_folder, f"{object_name}.png")
-        plt.savefig(output_plot_path)
+        plt.savefig(output_plot_path,dpi=600)
         plt.close()
         print(f"Saved plot: {output_plot_path}")
 
 
 # 设置输入和输出文件夹
-input_folder = "./Force_data_v2"  # 这里替换成你的 CSV 文件所在目录
-output_folder = "./Force_data_v2/processed"
+input_folder = "./Force_for_vqvae_drawing"  # 这里替换成你的 CSV 文件所在目录
+output_folder = "./Force_for_vqvae_drawing/processed"
 
 process_and_plot(input_folder, output_folder)

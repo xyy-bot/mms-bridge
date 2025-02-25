@@ -54,7 +54,7 @@ pred_labels = np.array(pred_labels)
 sample_ids = np.array(sample_ids)
 
 # Define the mapping from label indices to descriptive strings.
-label_id_to_str = {0: "irregular", 1: "minimal", 2: "slightly", 3: "uniform"}
+label_id_to_str = {0: "irregular", 1: "minimal", 2: "slight", 3: "uniform"}
 
 # Plot 1: Confusion Matrix
 cm = confusion_matrix(true_labels, pred_labels, labels=[0, 1, 2, 3])
@@ -75,7 +75,7 @@ plt.show()
 
 
 # Plot 2: Histogram of Label Distribution
-plt.figure(figsize=(1.75, 1.5))
+plt.figure(figsize=(3.5, 1.5))
 bins = np.arange(-0.5, 4.5, 1)
 plt.hist(true_labels, bins=bins, alpha=0.5, label="True", facecolor="blue", edgecolor="black", density=True)
 plt.hist(pred_labels, bins=bins, alpha=0.5, label="Predicted", facecolor="green", edgecolor="black", density=True)
