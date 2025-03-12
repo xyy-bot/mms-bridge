@@ -1,1 +1,1 @@
-Augmented VLM for tactile sensing with PaliGemma2
+using language as the bridge to integrate multimodal sensing for robotic perception
